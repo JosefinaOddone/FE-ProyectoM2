@@ -1,9 +1,102 @@
+body{
+    background-image: url(/Assets/Img/ondas.png);
+}
+
 .navbar.navbar-expand-lg.bg-dark{
     background-color: rgb(72, 76, 104) !important;
 }
-i.fa-brands.fa-github.fa-2xl:hover{
-    color: rgb(197, 88, 88);
+
+i.fa-solid.fa-user-lock:hover, i.fa-brands.fa-linkedin.fa-1xl:hover, i.fa-brands.fa-github.fa-1xl:hover,  i.fa-solid.fa-user.fa-1xl:hover{
+    color: rgb(196, 51, 51); 
 }
+i.fa-solid.fa-user-lock, i.fa-brands.fa-linkedin.fa-1xl, i.fa-brands.fa-github.fa-1xl,  i.fa-solid.fa-user.fa-1xl{
+    color: aliceblue; 
+}
+
+
+section.dashboard3 {
+    background-color: azure;
+    align-items: left;
+}
+
+section.dashcol12{
+margin-top: 85%;
+}
+
 .list-group {
     --bs-list-group-bg:transparent;
 }
+.perfil {
+    margin-top: 4%; 
+    background-attachment: fixed;
+    background-position: top center;
+}
+.titulonombre {
+    color: rgb(10, 33, 53);
+}
+.perfil {
+    color: rgb(67, 70, 80);
+}
+
+.titulo1 {
+    color: aliceblue;
+    margin-top: 25%;
+    text-align: center;
+}
+.titulo2 {
+    color: aliceblue;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.experiencia {
+    color: aliceblue;
+    margin-left:13%;
+}
+.educacion {
+    color: aliceblue;
+    margin-left: 5%;
+
+}
+.td {
+    text-align: right;
+    margin-right: 5%;
+}
+.austral , .derecho{
+    text-align: right;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 15%; 
+}
+.programacion {
+    text-align: left;
+    margin-top: 20%;
+}
+.mediacion{
+    margin-top: 15%;
+}
+
+.linecenter{
+    color: aliceblue;
+    border-left: thick solid #ffffff;
+    height: 95%;
+    left: 50%;
+    position: absolute;
+    margin-left: 1%;
+}
+
+
+
+
+.html {
+    scroll-behavior: smooth;
+}
+.dashboard3{
+scroll-behavior: smooth;
+color: rgb(72, 76, 104) ;
+}
+
+
+
+
+

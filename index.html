@@ -16,54 +16,210 @@
 
         <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
     </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="Assets/Img/logo2.png" alt="Bootstrap" width="80" height="34">
+                <img src="Assets/Img/logo2.png" alt="Bootstrap" width="100" height="40">
             </a>
             <ul class="list-group list-group-horizontal">
-              <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
-              <li class="list-group-item"><i class="fa-brands fa-github fa-2xl"></i></li>
-              <!-- Button trigger modal -->
+              <li class="list-group-item"><i class="fa-brands fa-linkedin fa-1xl" type="button"></i></li>
+              <li class="list-group-item"><i class="fa-brands fa-github fa-1xl"type="button"></i></li>
+              <!-- Button LogIn -->
               <li class="list-group-item">
-                <i class="fa-solid fa-user fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                <i class="fa-solid fa-user-lock fa-1xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
                 </i>
               </li>
             </ul>
-           
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3 row">
-          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword">
-          </div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Iniciar sesión</button>
-      </div>
-    </div>
-  </div>
-</div>
         </div>
     </nav>
 
+  <div class="todojunto">
+    <!-- Datos personales--> 
+    <div class="perfil">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col-2">
+            <br>
+            <br>
+            <img src="/Assets/Img/im1.jpg" class="rounded-circle w-75">
+          </div>
+          <div class="col-10">
+            <br>
+            <br>
+            <div class="titulonombre">
+              <h1 class="fw-normal"> JOSEFINA ODDONE</h1>
+            </div>
+            <div class="perfil">
+              He estudiado derecho, enfoco mi carrera en el área tecnológica y digital, y creo fielmente en la innovación del sector legal. Me gusta ayudar, guiar y liderar. Soy una persona que se adapta muy bien y rápidamente a los cambios y, sobre todo, no me dan miedo. He tenido la oportunidad de desarrollar habilidades en el área de la atención al cliente. Trabajo de forma activa y responsable. Me considero una persona disciplinada y acostumbrada a manejar grandes volúmenes de trabajo, sabiendo priorizar las tareas a realizar. Mi objetivo es crecer tanto profesional como personalmente
+              <!--Linea horizontal:
+              <hr size="2px" color="black" />
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- ModalInicioSesion -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Información académica -->
+    <div class="titulo1">
+      <h2>
+      EDUCACIÓN
+      </h2>        
+    </div>
+    <br>
+    <br>
+    <div class="educacion">
+      <div class="row align-items-start">
+        <div class="col-6">
+          <div class="td">
+            <h5>
+             Master en Transformación Digital
+            </h5>
+            <i>Universidad de Salamanca.</i>
+            <p><small>Actualidad</small></p>
+            <br>
+          </div>
+          <div class="austral">
+            <h5>
+              Diploma Internacional en Cibercrimen y Tecnologías Aplicadas a la Investigación
+            </h5>
+            <i>Universidad Austral.</i>
+            <p><small>2021-2022</small></p>
+            <br>
+          </div>
+          <div class="derecho">
+            <h5>
+              Abogacía
+            </h5>
+            <i>Universidad Nacional del Nordeste.</i>
+            <p><small>2015-2020</small></p>
+            <br>
+          </div>
+        </div>
+      <!--linea centro de educacion-->
+          <div class="linecenter"></div>
+      <!--linea centro de educacion-->
+        <div class="col-6">
+          <div class="programacion">
+            <h5>
+              Yo Programo 4.0
+            </h5>
+            <i>Argentina Programa.</i>
+            <p><small>Actualidad</small></p>
+            <br>
+          </div>
+          <div class="mediacion">
+            <h5>
+              Mediación
+            </h5>
+            <i>Fundación Americana Interdisciplinaria.</i>
+            <p><small>2020</small></p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experiencia -->
+    <div class="titulo2">
+        <h2>
+        EXPERIENCIA
+        </h2>        
+    </div>
+    <br>
+    <br>
+    <div class="experiencia">
+      <div class="row align-items-start">
+        <div class="col-6">
+          <h5>
+            JUNIOR LEGAL ENGINEER
+          </h5>
+          WOW Legal Experience. <i>Actualidad (onlline- part-time)</i>
+          <ol> 
+            <li type="disc">Creacion de pdf interactivos, revista digital</li>
+            <li type="disc">Desarrollar y mejorar la página web</li>
+            <li type="disc">Creación de publicaciones en diferentes idiomas</li>
+            <li type="disc">Creación de contenidos para marketing</li>
+            <li type="disc">Consultoría y lecciones de diseño legal</li>
+            <li type="disc">Consultoría y lecciones de tecnología legal</li>
+            <li type="disc">Co-creación del portfolio</li>
+          </ol>
+          <br>
+          <h5>
+            CREACIÓN DE CURRICULUM
+          </h5>
+          Bella Vista Empleos. <i>Actualidad (onlline- part-time)</i>
+          <ol> 
+            <li type="disc">Diseño de plantillas</li>
+            <li type="disc">Creacion y diseño de formularios UX </li>
+            <li type="disc">Redacción de textos </li>
+            <li type="disc">Creación de contenidos y post para redes </li>
+          </ol>
+        </div>
+        <div class="col-6">
+          <h5>
+            PARALEGAL
+          </h5>
+          Bufete de abogados "Leconte y Asociados". <i>2017 y 2020</i>
+          <ol> 
+            <li type="disc">Gestión de documentación</li>
+            <li type="disc">Soporte en asuntos legales</li>
+            <li type="disc">Administrativa</li>
+            <li type="disc">Organización de citas</li>
+            <li type="disc">Gestión de llamadas</li>
+            <li type="disc"> Gestión de agendas</li>
+          </ol>
+          <br>
+          <h5>
+            COORDINADOR DE VOLUNTARIOS
+          </h5>
+          "Buen Samaritano SJ". <i>2016-2018</i>
+            <ol> 
+              <li type="disc">Captación de nuevos voluntarios</li>
+              <li type="disc">Captación de inversores</li>
+              <li type="disc">Organización del equipo</li>
+              <li type="disc">Creación de contenidos</li>
+              <li type="disc">Planificación de eventos</li>
+            </ol>
+        </div>
+      </div>
+    </div>
+    
+            
+
+
+  </div>
 
 
     
